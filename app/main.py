@@ -5,8 +5,6 @@ def get_human_age(cat_age: int, dog_age: int) -> list:
 
 
 def to_human(age: int, block: int) -> int:
-    if age <= 0:
-        return 0
     if age < 15:
         return 0
     if age <= 23:
